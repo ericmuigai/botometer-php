@@ -1,5 +1,7 @@
 # Botometer PHP API
 Converted from [Botometer PHP API](https://github.com/IUNetSci/botometer-python)
+## Installation 
+```composer require ericmuigai/botometer-php```
 
 ```
 $botometer = new \Botometer\Botometer(

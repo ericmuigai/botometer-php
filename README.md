@@ -4,7 +4,7 @@ Converted from [Botometer PHP API](https://github.com/IUNetSci/botometer-python)
 ```
 $botometer = new \Botometer\Botometer(
 		$consumerKey, $consumerSecret, $accessToken, $accessTokenSecret, $rapidApiKey
-	);
+	         );
 
 // Check a single account by screen name
 $result = $botometer->checkAccount( '@clayadavis' );

@@ -5,3 +5,4 @@ vendor
 .gitignore
 index.php
 *.zip
+/test

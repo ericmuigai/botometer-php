@@ -1,0 +1,21 @@
+{
+    "name": "ericmuigai/botometer-php",
+    "description": "A PHP API for Botometer by OSoMe.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Muigai",
+            "email": "emuigai5@gmail.com"
+        }
+    ],
+    "require": {
+        "abraham/twitteroauth": "^1.1",
+        "mashape/unirest-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Botometer\\": "src/"
+        }
+    }
+}

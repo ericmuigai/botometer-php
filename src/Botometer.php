@@ -36,7 +36,7 @@ class Botometer {
 	public function __construct(
 		$consumerKey, $consumerSecret, $accessToken, $accessTokenSecret, $rapidApiKey,
 		$mashapeKey = false, $botometerApiUrl = 'https://botometer-pro.p.rapidapi.com',
-		$botometerApiVersion = 2
+		$botometerApiVersion = 4
 	) {
 		$this->twitterApi   = new TwitterOAuth( $consumerKey, $consumerSecret, $accessToken, $accessTokenSecret );
 		$this->botometerUrl = "$botometerApiUrl/$botometerApiVersion/";
